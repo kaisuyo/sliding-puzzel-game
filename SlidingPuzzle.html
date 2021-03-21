@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sliding Puzzle Game</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="SlidingPuzzle.css">
+</head>
+<body>
+	<div id="big-container">
+		<div id="sample"></div>
+		<br>
+		<div id="container">
+			<div class="box1" id="box1" onclick="handling(1)"></div>
+			<div class="box2" id="box2" onclick="handling(2)"></div>
+			<div class="box3" id="box3" onclick="handling(3)"></div>
+			<div class="box4" id="box4" onclick="handling(4)"></div>
+			<div class="box5" id="box5" onclick="handling(5)"></div>
+			<div class="box6" id="box6" onclick="handling(6)"></div>
+			<div class="box7" id="box7" onclick="handling(7)"></div>
+			<div class="box8" id="box8" onclick="handling(8)"></div>
+			<div class="box9" id="box9" onclick="handling(9)"></div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<button id="pl" onclick="PlayGame()">Play</button>
+	<br>
+	<button id="done" onclick="judge()"> Done</button>
+	<script type="text/javascript" src="SlidingPuzzle.js"></script>
+</body>
+</html>
